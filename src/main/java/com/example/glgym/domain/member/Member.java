@@ -25,7 +25,14 @@ public class Member {
   public String getName() {
     return name;
   }
+  public MemberState getMemberState() { return memberState; }
   public void setName() {
     this.name = name;
   }
+  public String getJerk_record() {return jerk_record; }
+  public void setJerk_record() {this.jerk_record = jerk_record; }
+  public String getSnatch_record() { return snatch_record; }
+  public void setSnatch_record() { this.snatch_record = snatch_record; }
+  public String getPassword() { return password; }
+  public void setPassword() { this.password = password; }
 }

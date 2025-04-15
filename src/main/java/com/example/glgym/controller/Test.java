@@ -1,6 +1,7 @@
 package com.example.glgym.controller;
 
 import com.example.glgym.domain.member.Member;
+import com.example.glgym.domain.memberState.MemberState;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,6 +16,7 @@ public class Test {
   }
 
   public Member save(Member member) {
+    MemberState memberState = member.getMemberState();
     Connection conn = null;
     PreparedStatement pstmt = null;
     ResultSet rs = null;
