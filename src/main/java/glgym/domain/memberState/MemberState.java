@@ -1,4 +1,4 @@
-package com.example.glgym.domain.memberState;
+package glgym.domain.memberState;
 
 import jakarta.persistence.*;
 

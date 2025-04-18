@@ -1,5 +1,6 @@
-package com.example.glgym;
+package glgym;
 
+import glgym.GlgymApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
